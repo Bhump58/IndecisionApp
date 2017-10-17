@@ -1,0 +1,12 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "indecison app",
+  "main": "index.js",
+  "author": "Brian DJ Humphrey",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
