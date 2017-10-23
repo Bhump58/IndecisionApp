@@ -2,24 +2,27 @@
   "name": "indecision-app",
   "version": "1.0.0",
   "description": "indecison app",
-  "main": "index.js",
+  "main": "app.js",
   "author": "Brian DJ Humphrey",
   "license": "MIT",
   "scripts": {
     "server": "live-server public/",
-    "build": "webpack --watch",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "live-server": "^1.2.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-modal": "^3.0.4",
     "validator": "^9.0.0",
-    "webpack": "3.1.0"
+    "webpack": "3.1.0",
+    "webpack-dev-server": "^2.9.3"
   }
 }
