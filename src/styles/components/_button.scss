@@ -8,13 +8,14 @@
   font-size: $l-size;
   width: 100%;
   padding: 2.4rem;
-  margin-bottom: $xl-size;
+  margin-bottom: $m-size;
 }
 
 .big-button:disabled {
   opacity: .5;
 }
 
+//button
 .button {
   background: $purple;
   border: none;
@@ -22,4 +23,17 @@
   color: white;
   font-weight: 500;
   padding: $s-size;
+}
+
+.button--link {
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .big-button {
+    margin-bottom: $xl-size;
+  }
 }
